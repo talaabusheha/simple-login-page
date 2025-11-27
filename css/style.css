@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+body {
+    background-image: url(../imj/photo1.jpeg);
+}
+
+form {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 10% auto 0;
+    box-shadow: 0 0 10px black;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(130, 150, 150);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
